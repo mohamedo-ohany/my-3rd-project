@@ -334,6 +334,13 @@ a {
         padding: 0 10px;
         font-size: 15px;
     }
+        .header .meanu .links li:not(:last-child) {
+        border-bottom: 0;
+    }
+
+    .header .meanu .links li {
+        border-top: 1px solid var(--main-color);
+    }
 }
 
 .landing {
